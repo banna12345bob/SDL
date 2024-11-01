@@ -1,6 +1,7 @@
 project "SDL2main"
 	kind          "StaticLib"
 	language      "C"
+	staticruntime "on"
 
 	systemversion "latest"
 
